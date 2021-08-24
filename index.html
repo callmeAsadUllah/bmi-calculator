@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang = "en">
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+		<title>
+			BMI CalC
+		</title>
+		<link rel= "stylesheet" type = "text/css" href = ".\main.css">
+		<link rel= "stylesheet" type = "text/css" href = ".\bootstrap-4.0.0\dist\css\bootstrap.min.css">
+		<link rel= "stylesheet" type = "text/css" href = ".\bootstrap-icons-1.5.0\bootstrap-icons.css">
+	</head>
+	<body>
+		<main>
+			<section class = "mx-1 my-2 p-2">
+				<div class = "mx-4 my-2 p-4">
+					<div class = "nav d-flex justify-content-center align-items-center text-dark bg-light text-dark rounded">
+						<p class = "display-4">
+							BMI CalC
+						</p>
+					</div>
+				</div>
+				<div class = "h6 bg-dark text-light border rounded">
+					<div class="mx-1 p-1 row">
+						<div class="col">
+						</div>
+						<div class="col-8">
+							<p>
+								Weight
+							</p>
+							<input id = "userInput_weight" class = "w-100 border rounded" type = "number" placeholder = "Enter the weight value in kilogram...">
+						</div>
+						<div class="col">
+						</div>
+					</div>
+					<div class="mx-1 p-1 row">
+						<div class="col">
+						</div>
+						<div class="col-8">
+							<p>
+								Height
+							</p>
+							<input id = "userInput_height" class = "w-100 border rounded" type = "number" placeholder = "Enter the height value in feet...">
+						</div>
+						<div class="col">
+						</div>
+					</div>
+					<div class="mx-1 p-1 row">
+						<div class="col d-flex justify-content-end align-items-center">
+							<button class = "btn btn-success text-light border rounded" type = "button" onclick = "BMI()">
+								BMI
+							</button>
+						</div>
+						<div class="col-8 d-flex justify-content-center align-items-center">
+							<input id = "bmi" class = "w-50 border rounded" type = "text" placeholder = "">
+						</div>
+						<div class="col">
+						</div>
+					</div>
+					<div class="mx-1 p-1 row">
+						<div class="col d-flex justify-content-center align-items-center">
+							A healthy person's BMI is from 19 to 15.
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer>
+			<section>
+				<div>
+					<div class = "mx-4 fixed-bottom nav d-flex justify-content-center align-items-center bg-light text-dark border border-success border-bottom rounded-top">
+						<p class = "mx-4 h4">
+							<i class = "bi-code text-success"></i> with <i class = "bi-suit-heart-fill text-danger"></i> By Muhammad Asad Ullah<span class = "text-primary">.</span>
+						</p>
+					</div>
+				</div>
+			</section>
+		</footer>
+		<script src = ".\main.js">
+		</script>
+		<script src = ".\bootstrap-4.0.0\dist\js\bootstrap.min.js"/>
+		</script>
+	</body>
+</html>
